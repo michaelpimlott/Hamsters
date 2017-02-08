@@ -54,19 +54,9 @@ h2 {
   font-size: 2.4em;
 }
 
-#masthead h1 {
-    font-size: 4.5em;
-    font-weight: bold;
-    color: white;
-    font-family: 'Chicle', 'Kavoon', cursive;
-    text-align: center;
-    text-shadow: 5px 5px 0 black, 10px 10px 0 black, 15px 15px 0 black, 20px 20px 0 black;
-    letter-spacing: 4px;
-    padding-bottom: 20px;
-}
 
 #big-plans {
-    background: url("img/space.jpg") #6B6E7E no-repeat top center;
+    background: url("img/space.jpg") #181E2C no-repeat top center;
     padding: 26% 0 18%;
     max-width: 100%;
     height: auto;
@@ -78,9 +68,9 @@ h2 {
 }
 
 #mr-peepers {
-    background: url("img/mrpeepers.jpg") #6B6E7E no-repeat top center;
-    padding: 26% 0 48%;
-    max-width: 50%;
+    background: url("img/mrpeepers.jpg") #6B6E7E no-repeat center center;
+    padding: 18% 0 20%;
+    max-width: 100%;
     height: auto;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -111,6 +101,31 @@ h2 {
     transform-origin: 100%;
     z-index: -1;
 }
+
+
+/*header-----------------------------------*/
+#container-header {
+    background: url(img/joe.jpg) #6B6E7E no-repeat center center;
+    max-width: 100%;
+    padding: 8% 0 25% 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+#masthead h1 {
+    font-size: 4.5em;
+    font-weight: bold;
+    color: white;
+    font-family: 'Chicle', 'Kavoon', cursive;
+    text-align: center;
+    text-shadow: 5px 5px 0 black, 10px 10px 0 black, 15px 15px 0 black, 20px 20px 0 black;
+    letter-spacing: 4px;
+    padding-bottom: 20px;
+}
+
+
+
 /*----info----------------*/
 #info {
     background: #181E2C;
@@ -125,7 +140,7 @@ h2 {
     margin: 0 auto;
     padding: 1% 0 4%;
     color: white;
-    font-size: 16px;
+    font-size: 1em;
 }
 
 
@@ -141,14 +156,42 @@ h2 {
     margin-top: .15em;
 }*/
 
-#container-header {
-    background: url(img/joe.jpg) #6B6E7E no-repeat center center;
-    max-width: 100%;
-    padding: 8% 0 25% 0;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
+
+/*history-------------------------------------*/
+
+#history {
+  color: #181E2C;
+  line-height: 1.7;
+  max-width: 80%;
+  display: block;
+  padding: 2% 0 4%;
+  font-size: 1em;
+  text-align: center;
+  box-sizing: border-box;
+  margin: 0 auto;
+  z-index: 2;
+  height: auto;
+  max-width: 100%;
 }
+
+#history:after {
+    background: inherit;
+    bottom: 0;
+    content: '';
+    display: block;
+    height: 50%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    transform: skewY(-1.5deg);
+    transform-origin: 100%;
+    z-index: -2;
+}
+
+
+
+
+
 
 #radius {
     background-color: #2272A2;
@@ -205,6 +248,7 @@ h2 {
 #nav a:hover {
     background: #181E2C;
     color: #2272A2;
+    transition: background .4s;
 }
 
 
@@ -294,7 +338,8 @@ body {
     #masthead h1 {
         font-size: 12.5em;
     }
-    #info p {
+    #info p,
+    #history  {
         max-width: 50%;
     }
 }
