@@ -213,14 +213,26 @@ h2 {
 
 /*------footer-----*/
 
-#footer{
+#footer {
   background: white;
   width: 100%;
-  height:5em;
+  height:10em;
   text-align: center;
   color:#181E2C;
 }
 
+#footer a {
+  color: #181E2C;
+  font-size: 2.6em;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#footer a:hover {
+  font-size: 4.6em;
+  color:#2272A2;
+  cursor: pointer;
+}
 
 /*nav menu-----------------*/
 
