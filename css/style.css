@@ -49,15 +49,36 @@ hr {
 
 h2 {
   color:#2272A2;
-  text-transform: capitalize;
+  text-transform:uppercase;;
   font-weight: bold;
   font-size: 2.4em;
 }
 
+#empty-div {
+height: 400px;
+background: #181E2C;
+max-width: 100%;
+display: block;
+margin: 0 auto;
+color: white;
+font-size: 1em;
+
+}
+
+#space-text h3 {
+  margin-left: 20%;
+  text-shadow: 1px 1px 3px white;
+
+
+}
+
+
+
+
 
 #big-plans {
     background: url("img/space.jpg") #181E2C no-repeat top center;
-    padding: 26% 0 18%;
+    padding: 22% 0 10%;
     max-width: 100%;
     height: auto;
     -webkit-background-size: cover;
@@ -135,7 +156,8 @@ h2 {
 
 
 #info p,
-#behavior p {
+#behavior p,
+#empty-div {
     line-height: 1.7;
     max-width: 80%;
     display: block;
@@ -173,7 +195,7 @@ h2 {
   margin: 0 auto;
   z-index: 2;
   height: auto;
-  max-width: 100%;
+  max-width: 80%;
 }
 
 #history:after {
@@ -249,7 +271,7 @@ h2 {
 #nav h3 {
     float: left;
     text-transform: capitalize;
-    margin: .2em 0 0 .59em;
+    margin: .3em 0 0 .69em;
     font-weight: bold;
     color: black;
     font-family: 'Chicle', cursive;
@@ -274,6 +296,7 @@ h2 {
     text-decoration: none;
     padding: .975em;
     clear: both;
+    text-transform: uppercase;
 }
 
 #nav a:hover {
@@ -315,7 +338,8 @@ body {
 #nav label {
     display: block;
     margin-left: -30px;
-    padding-top: 12px;
+    margin-top: 8px;
+    padding-top: 4px;
     background: url("img/menu4.png") no-repeat right center;
     text-indent: -999em;
     cursor: pointer;
@@ -345,7 +369,7 @@ body {
         text-align: right;
     }
     #nav h3 {
-        margin: .7em 1.3em 0 .5em;
+        margin: .6em 1.3em 0 .5em;
     }
     #nav label {
         display: none;
