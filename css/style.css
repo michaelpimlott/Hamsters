@@ -126,14 +126,16 @@ h2 {
 
 
 
-/*----info----------------*/
-#info {
+/*----info/behavior----------------*/
+#info,
+#behavior {
     background: #181E2C;
     text-align: center;
 }
 
 
-#info p {
+#info p,
+#behavior p {
     line-height: 1.7;
     max-width: 80%;
     display: block;
@@ -339,7 +341,8 @@ body {
         font-size: 12.5em;
     }
     #info p,
-    #history  {
+    #history,
+    #behavior p {
         max-width: 50%;
     }
 }
