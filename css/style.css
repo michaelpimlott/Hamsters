@@ -215,8 +215,10 @@ h2 {
 }
 
 .grow img:hover {
-  width: 340px;
-  height: 340px;
+  width: 320px;
+  height: 320px;
+  opacity: .9;
+  cursor: pointer;
 }
 
 
