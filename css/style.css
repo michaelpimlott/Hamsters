@@ -55,7 +55,6 @@ h2 {
 }
 
 #empty-div {
-height: 400px;
 background: #181E2C;
 max-width: 100%;
 display: block;
@@ -183,7 +182,8 @@ font-size: 1em;
 
 /*history-------------------------------------*/
 
-#history {
+#history,
+#etymology {
   color: #181E2C;
   line-height: 1.7;
   max-width: 80%;
@@ -395,7 +395,8 @@ body {
     }
     #info p,
     #history,
-    #behavior p {
+    #behavior p,
+    #etymology  {
         max-width: 50%;
     }
 }
